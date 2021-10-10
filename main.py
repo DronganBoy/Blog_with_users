@@ -9,7 +9,7 @@ from flask_login import UserMixin, login_user, LoginManager, login_required, cur
 from forms import CreatePostForm
 from flask_gravatar import Gravatar
 from forms import RegisterForm, CreatePostForm, LoginForm, CommentForm
-from time import time
+
 import os
 
 # To stop manual access to delete, edit and add post, we use a decorator and error handling function and need the following
